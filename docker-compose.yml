@@ -4,5 +4,5 @@ services:
   circle_detection:
     build: .
     volumes:
-      - /path/to/your/images:/app/images
-
+      - ./data/Images:/app/data/Images
+      - ./results:/app/results
