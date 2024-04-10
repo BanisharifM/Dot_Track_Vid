@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  circle_detection:
+    build: .
+    volumes:
+      - /path/to/your/images:/app/images
+
