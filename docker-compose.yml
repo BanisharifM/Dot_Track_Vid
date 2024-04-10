@@ -6,3 +6,5 @@ services:
     volumes:
       - ./data/Images:/app/data/Images
       - ./results:/app/results
+      - ./data/Videos:/app/data/Videos
+      - ./Custom_Dataset:/app/Custom_Dataset

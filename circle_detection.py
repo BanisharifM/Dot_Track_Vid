@@ -7,7 +7,7 @@ output_dir = "results/"
 os.makedirs(output_dir, exist_ok=True)
 
 # Load the image
-image = cv2.imread("data/Images/image6.png")
+image = cv2.imread("data/Images/image1.png")
 
 # Convert to grayscale
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -43,5 +43,5 @@ if circles is not None:
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 # Save the result
-output_path = os.path.join(output_dir, "detected_circles.jpg")
+output_path = os.path.join(output_dir, "detected_circles5.jpg")
 cv2.imwrite(output_path, image_rgb)
