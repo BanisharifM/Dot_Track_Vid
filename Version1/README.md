@@ -1,25 +1,14 @@
+# Dot_Track_Vid V1
 
+## Introduction
+Dot_Track_Vid V1 utilizes the Hough Circle Transform for effective circle detection in images. This technique is implemented using OpenCV's `cv.HoughCircles()` function. For a detailed explanation of the Hough Circle Transform, refer to the [OpenCV Documentation](https://docs.opencv.org/4.x/da/d53/tutorial_py_houghcircles.html).
 
-# Dot_Track_Vid
+## Results
+When the circle detection process is executed, the output for a single frame is saved in the results folder. Below is an example of the output image:
 
-
-<!-- ## Setup
-1. Copy the `.env.example` file to a new file named `.env`.
-2. Fill in the `WCS_CLUSTER_URL` and `WCS_API_KEY` values in the `.env` file with your own Weaviate cluster URL and API key. -->
-
+![Result Image](results/detected_circles.jpg)
 
 ## Running the Container
-
-To run the Docker container with the default settings, use the following command:
-
+To run the Docker container with the default settings, execute the following command in your terminal:
 ```bash
 docker-compose up --build
-```
-
-## Stop and Remove the Container
-
-When you're done, you can stop and remove the container with the following command:
-
-```bash
-docker-compose down
-```
