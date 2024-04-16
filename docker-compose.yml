@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    volumes:
+      - ./models:/app/models
+      - ./results:/app/results
+
+volumes:
+  results:  # This declares 'results' as a named volume

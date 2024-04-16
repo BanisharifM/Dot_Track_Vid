@@ -1,0 +1,12 @@
+opencv-python-headless
+torch
+torchvision
+ipython
+pandas
+requests
+psutil
+PyYAML
+tqdm
+matplotlib
+numpy
+seaborn
