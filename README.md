@@ -64,6 +64,8 @@ Now by the Docker When you run the main.py in the src folder. For the circle det
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mr20y5P3HjE?si=jrfkPMXP5l5J2tcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+[![Watch the video](https://path_to_your_image/thumbnail.jpg)](https://www.youtube.com/watch?v=Mr20y5P3HjE)
+
 
 ![Circles Locations](ReadMe_Images/Circles_Locations.png)
 
