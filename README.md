@@ -62,16 +62,18 @@ Now by the Docker When you run the main.py in the src folder. For the circle det
   Your browser does not support the video tag.
 </video> -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Mr20y5P3HjE?si=jrfkPMXP5l5J2tcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Mr20y5P3HjE?si=jrfkPMXP5l5J2tcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-[![Watch the video](https://path_to_your_image/thumbnail.jpg)](https://www.youtube.com/watch?v=Mr20y5P3HjE)
-
-
-
-https://github.com/BanisharifM/Dot_Track_Vid/assets/41099498/b572568d-8626-4352-83bf-e90e0850d7fe
+[![Watch the video](https://path_to_your_image/thumbnail.jpg)](https://www.youtube.com/watch?v=Mr20y5P3HjE) -->
 
 
 
+<!-- https://github.com/BanisharifM/Dot_Track_Vid/assets/41099498/b572568d-8626-4352-83bf-e90e0850d7fe -->
+
+### Video Output
+![Circles Locations](ReadMe_Images/output.gif)
+
+### Circles Locations Logs
 ![Circles Locations](ReadMe_Images/Circles_Locations.png)
 
 
