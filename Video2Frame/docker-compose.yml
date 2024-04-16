@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  circle_detection:
+    build: .
+    volumes:
+    - ./Custom_Dataset:/app/Custom_Dataset
+    - ./All_Frames:/app/All_Frames

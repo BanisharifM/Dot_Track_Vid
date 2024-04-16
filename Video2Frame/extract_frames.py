@@ -2,7 +2,7 @@ import cv2
 import os
 
 
-def extract_frames(video_path, output_dir, frame_interval=5):
+def extract_frames(video_path, output_dir, frame_interval=1):
     # Create the output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
 
@@ -34,4 +34,4 @@ def extract_frames(video_path, output_dir, frame_interval=5):
 
 
 # Example usage
-extract_frames("data/Videos/Dot_Track_Vid_2024_fall.mp4", "Custom_Dataset")
+extract_frames("Dot_Track_Vid_2024_fall.mp4", "All_Frames/")
