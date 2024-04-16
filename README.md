@@ -57,10 +57,10 @@ I put my runs directory in the utils folder and the results save in the exp2.
 ## Running the circle detector
 Now by the Docker When you run the main.py in the src folder. For the circle detection I define the X1, Y1, X2, Y2. By this locations I define the circle center and radios and add the circles to the frame. I log the circles location in the txt file also.
 
-<video width="320" height="240" controls>
+<!-- <video width="320" height="240" controls>
   <source src="results/output.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video>
+</video> -->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mr20y5P3HjE?si=jrfkPMXP5l5J2tcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
